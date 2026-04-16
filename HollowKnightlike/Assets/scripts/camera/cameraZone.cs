@@ -18,7 +18,7 @@ public class cameraZone : MonoBehaviour
 
     private void Start()
     {
-        baseSize = 7.5f;
+        baseSize = camera.GetComponent<cameraFollow>().cameraSize;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

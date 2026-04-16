@@ -12,13 +12,11 @@ public class cameraFollow : MonoBehaviour
 
     public float lerpSpeed;
 
-    public float sizeSpeed;
-
     public float cameraSize;
 
     public float newCameraSize;
 
-    float currentSize = 7.5f;
+    float baseSize = 7.5f;
 
     private void FixedUpdate()
     {
@@ -26,18 +24,7 @@ public class cameraFollow : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * lerpSpeed);
 
-        if (currentSize > newCameraSize)
-        {
-            currentSize = currentSize - sizeSpeed;
-        }
-        else if (currentSize != newCameraSize)
-        {
-
-            currentSize = currentSize + sizeSpeed;
-        }
-
-
-        GetComponent<Camera>().orthographicSize = currentSize;
+        GetComponent<Camera>().orthographicSize = Mathf.Lerp(cameraSize, newCameraSize, Time.deltaTime * lerpSpeed);
     }
 
 }
