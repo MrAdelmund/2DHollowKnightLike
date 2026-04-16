@@ -107,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
             facingDirection = 1;
         else if (moveInput < 0)
             facingDirection = -1;
+        transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
     }
 
     void HandleJump()

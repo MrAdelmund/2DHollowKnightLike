@@ -35,7 +35,11 @@ public class PlayerAttack : MonoBehaviour
 
         // Calculate attack position
         Vector2 attackPosition = (Vector2)attackPoint.position + attackDirection * attackRange * 0.5f;
-
+        //play attack animation
+        if (attackPoint.GetComponent<Animator>() != null)
+        {
+            attackPoint.GetComponent<Animator>().SetTrigger("Attack");
+        }
         // Detect enemies
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(
             attackPosition,
