@@ -24,7 +24,40 @@ public class cameraFollow : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * lerpSpeed);
 
-        GetComponent<Camera>().orthographicSize = Mathf.Lerp(cameraSize, newCameraSize, Time.deltaTime * lerpSpeed);
+    
+
+        if (cameraSize != newCameraSize)
+        {
+            if(cameraSize > newCameraSize)
+            {
+                GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize - 2.5f * Time.deltaTime;
+           
+                cameraSize = GetComponent<Camera>().orthographicSize;
+
+                if(cameraSize < newCameraSize)
+                {
+                    GetComponent<Camera>().orthographicSize = newCameraSize;
+
+                        cameraSize = newCameraSize;
+                }
+
+            }
+            else
+            {
+                GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize + 2.5f * Time.deltaTime;
+
+                cameraSize = GetComponent<Camera>().orthographicSize;
+
+                if (cameraSize > newCameraSize)
+                {
+                    GetComponent<Camera>().orthographicSize = newCameraSize;
+
+                    cameraSize = newCameraSize;
+                }
+            }
+        }
+
+        
     }
 
 }
