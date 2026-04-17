@@ -30,13 +30,13 @@ public class cameraFollow : MonoBehaviour
         {
             if(cameraSize > newCameraSize)
             {
-                GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize - 2.5f * Time.deltaTime;
+                GetComponent<Camera>().fieldOfView = GetComponent<Camera>().fieldOfView - 25f * Time.deltaTime;
            
-                cameraSize = GetComponent<Camera>().orthographicSize;
+                cameraSize = GetComponent<Camera>().fieldOfView;
 
                 if(cameraSize < newCameraSize)
                 {
-                    GetComponent<Camera>().orthographicSize = newCameraSize;
+                    GetComponent<Camera>().fieldOfView = newCameraSize;
 
                         cameraSize = newCameraSize;
                 }
@@ -44,13 +44,13 @@ public class cameraFollow : MonoBehaviour
             }
             else
             {
-                GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize + 2.5f * Time.deltaTime;
+                GetComponent<Camera>().fieldOfView = GetComponent<Camera>().fieldOfView + 25f * Time.deltaTime;
 
-                cameraSize = GetComponent<Camera>().orthographicSize;
+                cameraSize = GetComponent<Camera>().fieldOfView;
 
                 if (cameraSize > newCameraSize)
                 {
-                    GetComponent<Camera>().orthographicSize = newCameraSize;
+                    GetComponent<Camera>().fieldOfView = newCameraSize;
 
                     cameraSize = newCameraSize;
                 }
