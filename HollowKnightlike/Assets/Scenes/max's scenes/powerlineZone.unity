@@ -256,6 +256,8 @@ GameObject:
   - component: {fileID: 59268823}
   - component: {fileID: 59268822}
   - component: {fileID: 59268821}
+  - component: {fileID: 59268828}
+  - component: {fileID: 59268829}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -283,6 +285,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   playerMovement: {fileID: 59268825}
+  isAttacking: 0
 --- !u!70 &59268822
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -425,6 +428,11 @@ MonoBehaviour:
   wallCheckLeft: {fileID: 56914028}
   wallCheckRight: {fileID: 2067540297}
   wallCheckDistance: 0.4
+  moveInput: 0
+  isGrounded: 0
+  isTouchingWall: 0
+  canDoubleJump: 0
+  isDashing: 0
   facingDirection: 1
 --- !u!212 &59268826
 SpriteRenderer:
@@ -504,6 +512,47 @@ Transform:
   - {fileID: 823082207}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59268828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59268820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6dba462eb38ea49befb42adadcc98d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerAnimator
+  animIsOnTheMove: 0
+  animIsDashing: 0
+  animIsAttacking: 0
+  animIsClinging: 0
+  animIsJumping: 0
+  animIsDJumping: 0
+  animIsFalling: 0
+--- !u!95 &59268829
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59268820}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6127c8ccf5ae7a14bba11cf91edd335b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &184212852
 GameObject:
   m_ObjectHideFlags: 0

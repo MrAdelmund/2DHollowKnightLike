@@ -13,6 +13,7 @@ public class PlayerAttack : MonoBehaviour
 
     [Header("References")]
     public PlayerMovement playerMovement;
+    public bool isAttacking = false;
 
     float cooldownTimer;
 
@@ -23,6 +24,12 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && cooldownTimer <= 0)
         {
             Attack();
+            isAttacking = true;
+        }
+
+        if(cooldownTimer <= 0)
+        {
+            isAttacking = false;
         }
     }
 

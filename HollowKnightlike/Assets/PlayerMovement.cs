@@ -41,19 +41,21 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
-    float moveInput;
+    public float moveInput;
 
-    bool isGrounded;
-    bool isTouchingWall;
+    public bool isGrounded;
+    public bool isTouchingWall;
 
-    bool canDoubleJump;
-    bool isDashing;
+    public bool canDoubleJump;
+    public bool isDashing;
 
     float coyoteTimer;
     float dashTimer;
     float dashCooldownTimer;
 
     public int facingDirection = 1;
+
+
 
     void Start()
     {
