@@ -524,13 +524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6dba462eb38ea49befb42adadcc98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playerAnimator
-  animIsOnTheMove: 0
-  animIsDashing: 0
-  animIsAttacking: 0
-  animIsClinging: 0
-  animIsJumping: 0
-  animIsDJumping: 0
-  animIsFalling: 0
 --- !u!95 &59268829
 Animator:
   serializedVersion: 7
