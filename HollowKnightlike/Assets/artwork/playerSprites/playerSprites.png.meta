@@ -232,7 +232,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playerSprites_0
+      name: idle0
       rect:
         serializedVersion: 2
         x: 0
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_1
+      name: idle1
       rect:
         serializedVersion: 2
         x: 200
@@ -276,7 +276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_2
+      name: idle2
       rect:
         serializedVersion: 2
         x: 400
@@ -298,7 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_3
+      name: walk0
       rect:
         serializedVersion: 2
         x: 600
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_4
+      name: walk1
       rect:
         serializedVersion: 2
         x: 800
@@ -342,7 +342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_5
+      name: jump0
       rect:
         serializedVersion: 2
         x: 1000
@@ -364,7 +364,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_6
+      name: jump1
       rect:
         serializedVersion: 2
         x: 1200
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_7
+      name: fall0
       rect:
         serializedVersion: 2
         x: 0
@@ -408,7 +408,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_8
+      name: fall1
       rect:
         serializedVersion: 2
         x: 200
@@ -430,7 +430,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_9
+      name: dJump0
       rect:
         serializedVersion: 2
         x: 400
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_10
+      name: dJump1
       rect:
         serializedVersion: 2
         x: 600
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_11
+      name: dJump2
       rect:
         serializedVersion: 2
         x: 800
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_12
+      name: dJump3
       rect:
         serializedVersion: 2
         x: 1000
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_13
+      name: landToIdle0
       rect:
         serializedVersion: 2
         x: 1200
@@ -540,7 +540,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_14
+      name: landToIdle1
       rect:
         serializedVersion: 2
         x: 0
@@ -562,7 +562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_15
+      name: landToIdle2
       rect:
         serializedVersion: 2
         x: 200
@@ -584,7 +584,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_16
+      name: landToWalk0
       rect:
         serializedVersion: 2
         x: 400
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_17
+      name: landToWalk1
       rect:
         serializedVersion: 2
         x: 600
@@ -628,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_18
+      name: landToWalk2
       rect:
         serializedVersion: 2
         x: 800
@@ -650,7 +650,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_19
+      name: dash0
       rect:
         serializedVersion: 2
         x: 1000
@@ -672,7 +672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_20
+      name: dash1
       rect:
         serializedVersion: 2
         x: 1200
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_21
+      name: dashToFall0
       rect:
         serializedVersion: 2
         x: 0
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_22
+      name: dashToFall1
       rect:
         serializedVersion: 2
         x: 200
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_23
+      name: dashToFall2
       rect:
         serializedVersion: 2
         x: 400
@@ -760,7 +760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_24
+      name: dashToIdle0
       rect:
         serializedVersion: 2
         x: 600
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_25
+      name: dashToIdle1
       rect:
         serializedVersion: 2
         x: 800
@@ -804,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_26
+      name: dashToIdle2
       rect:
         serializedVersion: 2
         x: 1000
@@ -826,7 +826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_27
+      name: dashToIdle3
       rect:
         serializedVersion: 2
         x: 1200
@@ -848,7 +848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_28
+      name: dashToIdle4
       rect:
         serializedVersion: 2
         x: 0
@@ -870,7 +870,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_29
+      name: dashToWalk0
       rect:
         serializedVersion: 2
         x: 200
@@ -892,7 +892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_30
+      name: dashToWalk1
       rect:
         serializedVersion: 2
         x: 400
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_31
+      name: dashToWalk2
       rect:
         serializedVersion: 2
         x: 600
@@ -936,7 +936,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_32
+      name: cling0
       rect:
         serializedVersion: 2
         x: 800
@@ -958,7 +958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_33
+      name: cling1
       rect:
         serializedVersion: 2
         x: 1000
@@ -980,7 +980,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_34
+      name: attack0
       rect:
         serializedVersion: 2
         x: 1200
@@ -1002,7 +1002,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_35
+      name: attack1
       rect:
         serializedVersion: 2
         x: 0
@@ -1024,7 +1024,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_36
+      name: attack2
       rect:
         serializedVersion: 2
         x: 200
@@ -1046,7 +1046,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_37
+      name: aToIdle0
       rect:
         serializedVersion: 2
         x: 400
@@ -1068,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_38
+      name: aToIdle1
       rect:
         serializedVersion: 2
         x: 600
@@ -1090,7 +1090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_39
+      name: aToIdle2
       rect:
         serializedVersion: 2
         x: 800
@@ -1112,7 +1112,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_40
+      name: aToFall0
       rect:
         serializedVersion: 2
         x: 1000
@@ -1134,7 +1134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_41
+      name: aToFall1
       rect:
         serializedVersion: 2
         x: 1200
@@ -1156,7 +1156,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_42
+      name: aToFall2
       rect:
         serializedVersion: 2
         x: 0
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_43
+      name: aToWalk0
       rect:
         serializedVersion: 2
         x: 200
@@ -1200,7 +1200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_44
+      name: aToWalk1
       rect:
         serializedVersion: 2
         x: 400
@@ -1222,7 +1222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerSprites_45
+      name: aToWalk2
       rect:
         serializedVersion: 2
         x: 600
@@ -1259,52 +1259,52 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      playerSprites_0: -6145184685925821131
-      playerSprites_1: 598826666013712160
-      playerSprites_10: -9051324032530205604
-      playerSprites_11: 7252699813575653693
-      playerSprites_12: 4065610216971747852
-      playerSprites_13: -3255420984732894379
-      playerSprites_14: -381705450678279397
-      playerSprites_15: 768023366928126576
-      playerSprites_16: 6412336774202835428
-      playerSprites_17: 8130807727658673415
-      playerSprites_18: 5137676607542389579
-      playerSprites_19: 7621072956808713120
-      playerSprites_2: -4243464661947480977
-      playerSprites_20: 7176437739301930329
-      playerSprites_21: 8843754210887653857
-      playerSprites_22: -6465757759492684859
-      playerSprites_23: -6730543440931067529
-      playerSprites_24: 8190901721161881854
-      playerSprites_25: -297470955456605771
-      playerSprites_26: -458266237928141167
-      playerSprites_27: -5646207108293617176
-      playerSprites_28: -2358849436114677017
-      playerSprites_29: 7767395700883468554
-      playerSprites_3: 5011125366667240922
-      playerSprites_30: 6219532095147491481
-      playerSprites_31: -6638169927299568876
-      playerSprites_32: 8121339567918771819
-      playerSprites_33: -3523722391500357733
-      playerSprites_34: 150312969526082298
-      playerSprites_35: 4875515444453884082
-      playerSprites_36: 3673639694948784964
-      playerSprites_37: -7399691026983321131
-      playerSprites_38: -951447137301262522
-      playerSprites_39: 2303983155847056895
-      playerSprites_4: -1720348860284418050
-      playerSprites_40: 5527724940521986803
-      playerSprites_41: -5276288639326101409
-      playerSprites_42: 1945800222592800679
-      playerSprites_43: 3244757559972313262
-      playerSprites_44: 5880114521897547371
-      playerSprites_45: 1849489037
-      playerSprites_5: -3950783565762666328
-      playerSprites_6: -4120486764882171288
-      playerSprites_7: -9005179427840400196
-      playerSprites_8: -952416196328217571
-      playerSprites_9: 1705067358447874150
+      aToFall0: 5527724940521986803
+      aToFall1: -5276288639326101409
+      aToFall2: 1945800222592800679
+      aToIdle0: -7399691026983321131
+      aToIdle1: -951447137301262522
+      aToIdle2: 2303983155847056895
+      aToWalk0: 3244757559972313262
+      aToWalk1: 5880114521897547371
+      aToWalk2: 1849489037
+      attack0: 150312969526082298
+      attack1: 4875515444453884082
+      attack2: 3673639694948784964
+      cling0: 8121339567918771819
+      cling1: -3523722391500357733
+      dJump0: 1705067358447874150
+      dJump1: -9051324032530205604
+      dJump2: 7252699813575653693
+      dJump3: 4065610216971747852
+      dash0: 7621072956808713120
+      dash1: 7176437739301930329
+      dashToFall0: 8843754210887653857
+      dashToFall1: -6465757759492684859
+      dashToFall2: -6730543440931067529
+      dashToIdle0: 8190901721161881854
+      dashToIdle1: -297470955456605771
+      dashToIdle2: -458266237928141167
+      dashToIdle3: -5646207108293617176
+      dashToIdle4: -2358849436114677017
+      dashToWalk0: 7767395700883468554
+      dashToWalk1: 6219532095147491481
+      dashToWalk2: -6638169927299568876
+      fall0: -9005179427840400196
+      fall1: -952416196328217571
+      idle0: -6145184685925821131
+      idle1: 598826666013712160
+      idle2: -4243464661947480977
+      jump0: -3950783565762666328
+      jump1: -4120486764882171288
+      landToIdle0: -3255420984732894379
+      landToIdle1: -381705450678279397
+      landToIdle2: 768023366928126576
+      landToWalk0: 6412336774202835428
+      landToWalk1: 8130807727658673415
+      landToWalk2: 5137676607542389579
+      walk0: 5011125366667240922
+      walk1: -1720348860284418050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
